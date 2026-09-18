@@ -29,7 +29,7 @@ rule-anchor:
   domain_text: &domain_text {type: http, interval: 86400, behavior: domain, format: text}
 
 proxy-providers:
-  HH: {<<: *P, url: "订阅URL"}
+  HH: {<<: *P, url: "https://flyboard.actionz1103.xyz/sub?token=727b85d616e9d49084efbe0c1f1a8e71&clash"}
 
 proxies:
   - {name: 直连, type: direct, udp: true}
